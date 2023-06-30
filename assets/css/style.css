@@ -14,42 +14,42 @@
 
 #index-container { /* BASIC LAYOUT FOR ENTIRE PAGE */
     display: grid;
-    background-color: var(--grey-green); /*for debugging purposes*/
+    background-color: var(--grey); /*for debugging purposes*/
     grid-template: 10vh 60vh 30vh / 1fr 1fr;
     gap: 1vh;
 }
 
+
+
 header{
     display: flex;
-    /* flex-wrap: wrap; */
-    /* grid-column: span; */
     align-items: center;
-    border: dashed var(--sand);
+    color: var(--sand);
+    letter-spacing: 5px;
     padding: 1vh;
-    /* margin: 1vh; */
+    
 }
 
 img {
-    height: 30vh;
-    width: 30vh;
-    border-radius: 200px; /*makes the image a circle*/
+    height: auto;
+    width: 30vw;
+    border-radius: 300px; /*makes the image a circle*/
     padding: 3vw;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    /* align-content: flex-end; */
     justify-content: end;
     align-items: end; /*places text at bottom of grid*/
     padding: 1vh;
-    border: dashed var(--sand);
+    color: var(--sand);
+
 }
 
 .main-container {
     display: grid;
     grid-column: span 2;
-    /* align-content: center; */
     justify-content: space-around ;
     align-items: center;
     justify-items: center;
@@ -59,7 +59,6 @@ nav {
 .more-container {
     display: grid;
     grid-column: span 2;
-    /* align-content: center; */
     justify-content: space-around ;
     align-items: center;
     justify-items: center;
@@ -74,17 +73,15 @@ nav {
 
 .img-container {
     display: flex;
-    margin-left: auto;
-    /* justify-content: space-around; */
+    margin: 0 5% 0 10%;
 }
 
 .bio-short {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
-    justify-content: center; */
     display: grid;
-    margin: auto;
+    margin: 0 10% 0 5%;
+    color: var(--sand);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 
