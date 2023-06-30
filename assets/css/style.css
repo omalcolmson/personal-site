@@ -74,6 +74,7 @@ nav {
 
 .img-container {
     display: flex;
+    padding-left: 25vh;
     /* justify-content: space-around; */
 }
 
@@ -83,7 +84,7 @@ nav {
     justify-items: center;
     justify-content: center; */
     display: grid;
-    padding: 2% 2% 0 0;
+    padding: 2% 25vh 2% 0;
 }
 
 
