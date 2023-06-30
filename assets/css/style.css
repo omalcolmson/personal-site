@@ -20,21 +20,13 @@
 }
 
 
-
 header{
     display: flex;
     align-items: center;
     color: var(--sand);
     letter-spacing: 5px;
     padding: 1vh;
-    
-}
-
-img {
-    height: auto;
-    width: 30vw;
-    border-radius: 300px; /*makes the image a circle*/
-    padding: 3vw;
+    font-family: 'Geologica', sans-serif;    
 }
 
 nav {
@@ -45,6 +37,19 @@ nav {
     padding: 1vh;
     color: var(--sand);
 
+}
+
+img {
+    height: auto;
+    width: 30vw;
+    border-radius: 300px; /*makes the image a circle*/
+    padding: 3vw;
+}
+
+a {
+    color: var(--sand);
+    font-family: 'Geologica', sans-serif;
+    /* text-decoration: none; */
 }
 
 .main-container {
