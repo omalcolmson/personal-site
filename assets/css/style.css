@@ -19,18 +19,16 @@
     --red: #BB342F;
     --teal: #50A2A7;
     --grey-teal: #66999B;
+    --blue: #5F86A6;
 
 }
 
-#index-container { /* BASIC LAYOUT FOR ENTIRE PAGE */
-    display: grid;
-    background-color: var(--grey); /*for debugging purposes*/
-    grid-template: 10vh 60vh 30vh 10vh / 1fr 1fr;
-    gap: 1vh;
+/* GLOBAL STYLES */
+body {
+    background-color: var(--grey);
 }
 
-
-header{
+header{ 
     display: flex;
     align-items: center;
     color: var(--white);
@@ -60,6 +58,14 @@ a {
     color: var(--white);
     font-family: 'Geologica', sans-serif;
     /* text-decoration: none; */
+}
+
+/* INDEX SPECIFIC STYLES */
+
+#index-container { /* BASIC LAYOUT FOR ENTIRE PAGE */
+    display: grid;
+    grid-template: 10vh 60vh 30vh 10vh / 1fr 1fr;
+    gap: 1vh;
 }
 
 .main-container {
@@ -102,5 +108,9 @@ a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
+/* WORK PAGE STYLES */
+
+/* ABOUT PAGE STYLES */
 
 
