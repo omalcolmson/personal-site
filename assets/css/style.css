@@ -47,13 +47,6 @@ nav {
 
 }
 
-img {
-    height: auto;
-    width: 30vw;
-    border-radius: 300px; /*makes the image a circle*/
-    padding: 3vw;
-}
-
 a {
     color: var(--white);
     font-family: 'Geologica', sans-serif;
@@ -68,13 +61,12 @@ a {
     gap: 1vh;
 }
 
-.main-container {
+.idx-main-container {
     display: grid;
     grid-column: span 2;
     justify-content: space-around ;
     align-items: center;
     justify-items: center;
-
 }
 
 .more-container {
@@ -103,6 +95,13 @@ a {
     margin: 0 5% 0 10%;
 }
 
+#profile-img {
+    height: auto;
+    width: 30vw;
+    border-radius: 300px; /*makes the image a circle*/
+    padding: 3vw;
+}
+
 .bio-short {
     display: grid;
     margin: 0 10% 0 5%;
@@ -126,13 +125,31 @@ a {
 }
 
 #proj-overview{ 
+    display: grid;
+    grid-column: span 2;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.work-main{
+    display: grid;
+    grid-column: span 2;
+    align-content: center;
+}
+
+.proj-title {
     display: block;
     grid-column: span 2;
     color: var(--white);
     font-family: 'Geologica', sans-serif;
-    margin: 1%;
 }
 
+.proj-container {
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
 /* ABOUT PAGE STYLES */
 
 
