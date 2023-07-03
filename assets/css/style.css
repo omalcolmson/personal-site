@@ -40,7 +40,7 @@ header{
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: end; /*places text at bottom of grid*/
     padding: 1vh;
     color: var(--white);
@@ -64,7 +64,7 @@ a {
 
 #index-container { /* BASIC LAYOUT FOR ENTIRE PAGE */
     display: grid;
-    grid-template: 1fr 3fr 2fr 1fr / 1fr 1fr;
+    grid-template: 1fr 3fr 2fr / 1fr 1fr;
     gap: 1vh;
 }
 
@@ -112,6 +112,26 @@ a {
 }
 
 /* WORK PAGE STYLES */
+
+#work-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    row-gap: 1vh;
+    margin: 2%;
+}
+
+#proj-overview{ 
+    display: block;
+    grid-column: span 2;
+    color: var(--white);
+    font-family: 'Geologica', sans-serif;
+    margin: 1%;
+}
 
 /* ABOUT PAGE STYLES */
 
