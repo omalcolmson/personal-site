@@ -114,19 +114,20 @@ a {
 
 #work-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
-    grid-template-areas: 
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-rows: 0.5fr 3fr 1fr;
+    /* grid-template-areas: 
     "header"
     "main"
-    "footer";
-    row-gap: 1vh;
-    margin: 2%;
+    "footer"; */
+    gap: 1vh;
+    /* margin: 2%; */
 }
 
 #proj-overview{ 
-    display: grid;
-    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-column: span 2; */
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -139,16 +140,31 @@ a {
 }
 
 .proj-title {
-    display: block;
-    grid-column: span 2;
+    display: flex;
+    justify-content: space-around;
+    /* grid-column: span 2; */
     color: var(--white);
     font-family: 'Geologica', sans-serif;
 }
 
 .proj-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.proj-img {
+    height: auto;
+    width: 30vw;
+    padding: 3vw;
+}
+
+.proj-content {
+    display:flex;
 }
 /* ABOUT PAGE STYLES */
 
