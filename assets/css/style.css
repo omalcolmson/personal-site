@@ -57,7 +57,7 @@ a {
 
 #index-container { /* BASIC LAYOUT FOR ENTIRE PAGE */
     display: grid;
-    grid-template: 1fr 3fr 2fr / 1fr 1fr;
+    grid-template: 0.5fr 3fr 2fr / 1fr 1fr;
     gap: 1vh;
 }
 
