@@ -114,14 +114,8 @@ a {
 
 #work-container {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    grid-template-rows: 0.5fr 3fr 1fr;
-    /* grid-template-areas: 
-    "header"
-    "main"
-    "footer"; */
+    grid-template: 0.25fr 3fr 2fr / 1fr 1fr;
     gap: 1vh;
-    /* margin: 2%; */
 }
 
 #proj-overview{ 
