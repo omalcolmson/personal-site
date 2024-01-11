@@ -118,7 +118,7 @@ a {
     gap: 1vh;
 }
 
-#proj-overview{ 
+#page-overview{ 
     display: flex;
     flex-wrap: wrap;
     /* grid-column: span 2; */
@@ -171,4 +171,15 @@ a {
 }
 /* ABOUT PAGE STYLES */
 
+#about-container {
+    display: grid;
+    grid-template: 0.25fr 3fr 2fr / 1fr 1fr;
+    gap: 1vh;
+}
 
+.about-main{
+    display: grid;
+    grid-column: span 2;
+    align-content: center;
+    padding: 1vw;
+}
