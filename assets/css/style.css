@@ -114,13 +114,13 @@ a {
 
 #work-container {
     display: grid;
-    grid-template: 0.25fr 3fr 2fr / 1fr 1fr;
+    grid-template: 0.25fr 3fr 0.25fr / 1fr 1fr;
     gap: 1vh;
 }
 
 #page-overview{ 
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* flex-wrap: wrap; */
     /* grid-column: span 2; */
     color: var(--white);
     font-family: 'Montserrat', sans-serif;
@@ -173,7 +173,7 @@ a {
 
 #about-container {
     display: grid;
-    grid-template: 0.25fr 3fr 2fr / 1fr 1fr;
+    grid-template: 0.25fr 3fr 0.25fr / 1fr 1fr;
     gap: 1vh;
 }
 
@@ -182,4 +182,22 @@ a {
     grid-column: span 2;
     align-content: center;
     padding: 1vw;
+}
+
+.about-exp-container {
+    /* display: flex;
+    flex-wrap: nowrap; */
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    /* padding: 2vw; */
+}
+
+.about-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw 4vw 2vw 4vw;
 }
